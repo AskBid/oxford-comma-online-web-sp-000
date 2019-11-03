@@ -1,6 +1,7 @@
 def oxford_comma(array)
   puts 'array: '+ array.inspect
   last = array.pop
+  array.push('')
   puts 'array.pop: '+ array.inspect
   # puts 'last: '+ last
   str = array.size == 1 ? array.join('') : array.join(', ')
