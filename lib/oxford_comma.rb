@@ -3,7 +3,7 @@ def oxford_comma(array)
   first = array.shift
   array.unshift('')
   last = array.pop
-  last ? "#{first}#{array.join(', ')}#{extra_comma}and #{last}" : first
+  last != '' ? "#{first}#{array.join(', ')}#{extra_comma}and #{last}" : first
 end
 
 # def oxford_comma(array)
