@@ -1,11 +1,17 @@
 def oxford_comma(array)
-
+  first = array.shift
   last = array.pop
-
-  str = array.join(', ')
-
-  str << (array.size > 0 ? " and #{last}" : last)
+  puts 'first ' + first
+  puts 'last ' + last
+  # str = array.join(', ')
+  # str << (array.size > 0 ? " and #{last}" : last)
 end
+
+# def oxford_comma(array)
+#   last = array.pop
+#   str = array.join(', ')
+#   str << (array.size > 0 ? " and #{last}" : last)
+# end
 # def oxford_comma(array)
 #   last = array.pop
 #   str = array.join(', ')
