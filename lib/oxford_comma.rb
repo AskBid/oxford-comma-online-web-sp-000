@@ -1,7 +1,7 @@
 def oxford_comma(array)
   last = array.pop
-  array.join(', ')
-  array << " and #{last}"
+  str = array.join(', ')
+  str << " and #{last}"
 end
 
 puts oxford_comma(["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]).inspect
