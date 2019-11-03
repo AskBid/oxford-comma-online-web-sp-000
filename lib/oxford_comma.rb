@@ -1,8 +1,9 @@
 def oxford_comma(array)
+  and_ = array > 2 ? ', and ' : ' and '
   first = array.shift
   array.unshift('')
   last = array.pop
-  last != '' ? "#{first}#{array.join(', ')} and #{last}" : first
+  last != '' ? "#{first}#{array.join(', ')}#{and_}#{last}" : first
 end
 
 puts oxford_comma(["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]).inspect
