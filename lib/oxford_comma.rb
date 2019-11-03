@@ -1,3 +1,5 @@
 def oxford_comma(array)
-  array.join(' and ')
+  array.pop.join(', ')
 end
+
+oxford_comma(["kiwi", "durian", "starfruit", "mangos", "dragon fruits"])
