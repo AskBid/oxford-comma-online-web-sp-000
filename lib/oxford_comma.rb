@@ -1,7 +1,7 @@
 def oxford_comma(array)
   last = array.pop
   str = array.join(', ')
-  puts 'this '+str
+  puts 'this: '+str
   str << (array.size > 0 ? ", and #{last}" : last)
 end
 
