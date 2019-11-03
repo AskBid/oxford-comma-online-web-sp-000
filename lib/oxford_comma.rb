@@ -1,3 +1,3 @@
 def oxford_comma(array)
-  String(array)
+  String(array[0])
 end
