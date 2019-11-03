@@ -1,11 +1,9 @@
 def oxford_comma(array)
-  puts 'array: '+ array.inspect
-  last = array.pop
-  array.push('')
-  puts 'array.pop: '+ array.inspect
-  # puts 'last: '+ last
+
+  last = array.pop 
+
   str = array.join(', ')
-  puts 'str: '+ str
+
   str << (array.size > 1 ? "and #{last}" : last)
 end
 # def oxford_comma(array)
