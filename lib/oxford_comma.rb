@@ -6,4 +6,4 @@ end
 
 puts oxford_comma(["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]).inspect
 puts oxford_comma(["kiwi", "durian"]).inspect
-#puts oxford_comma(["kiwi"])
+puts oxford_comma(["kiwi"]).inspect
