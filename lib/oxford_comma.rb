@@ -3,7 +3,7 @@ def oxford_comma(array)
   last = array.pop
   puts 'array.pop: '+ array.inspect
   # puts 'last: '+ last
-  str = array.size == 1 ? array.join(' and ') : array.join(', and ')
+  str = array.size == 1 ? array.join('') : array.join(', ')
   puts 'str: '+ str
   str << (array.size > 0 ? ", and #{last}" : last)
 end
