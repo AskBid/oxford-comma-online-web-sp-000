@@ -18,9 +18,9 @@ end
 #   str << (array.size > 0 ? ", and #{last}" : last)
 # end
 
-puts oxford_comma(["kiwi", "durian", "starfruit", "mangos", "dragon fruits"])
+puts oxford_comma(["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]).inspect
 # puts '------'
-puts oxford_comma(["kiwi", "durian"])
+puts oxford_comma(["kiwi", "durian"]).inspect
 # puts '------'
-puts oxford_comma(["kiwi"])
+puts oxford_comma(["kiwi"]).inspect
 # puts '------'
