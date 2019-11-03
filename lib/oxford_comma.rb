@@ -1,5 +1,6 @@
 def oxford_comma(array)
   first = array.shift
+  array.unshift('')
   last = array.pop
   last ? first + ' and ' + last : first
   # str = array.join(', ')
