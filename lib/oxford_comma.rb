@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  extra_comma = array.size > 2 ? ',' : ''
+  extra_comma = array.size > 2 ? ',' : ' '
   first = array.shift
   # array.unshift('')
   last = array.pop
