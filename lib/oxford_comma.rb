@@ -2,6 +2,7 @@ def oxford_comma(array)
   first = array.shift
   array.unshift('')
   last = array.pop
+  array.push('')
   last != '' ? "#{first}#{array.join(', ')} and #{last}" : first
 end
 
