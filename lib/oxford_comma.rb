@@ -6,7 +6,7 @@ def oxford_comma(array)
   # puts 'last: '+ last
   str = array.join(', ')
   puts 'str: '+ str
-  str << (array.size > 0 ? " and #{last}" : last)
+  str << (array.size > 1 ? " and #{last}" : last)
 end
 # def oxford_comma(array)
 #   last = array.pop
